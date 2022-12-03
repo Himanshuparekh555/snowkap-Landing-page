@@ -1,0 +1,26 @@
+/* -------------------------------------------
+    Button
+---------------------------------------------- */
+.btn-theme {
+    background  : $button-color;
+    font-family : $secondary-font;
+    border-color: $primary-color;
+    border-width: 1px;
+    border-style: solid;
+    color       : $blue;
+    font-size   : 16px;
+    font-weight : 500;
+    padding     : 10px 25px;
+    text-align  : center;
+    position    : relative;
+    @include transition(all 0.3s ease-in 0s);
+    @include border-radius(4px);
+    cursor    : pointer;
+    box-sizing: border-box;
+
+    &:hover {
+        background  : none;
+        color       : $white;
+        border-color: $black;
+    }
+}

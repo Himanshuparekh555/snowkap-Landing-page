@@ -1,0 +1,79 @@
+/* -------------------------------------------
+    Layout
+---------------------------------------------- */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    height         : 100%;
+}
+
+body {
+    background    : $gray-light;
+    font-family   : $primary-font;
+    display       : flex;
+    flex-direction: column;
+    color         : $black;
+}
+
+
+.container {
+    max-width: 1320px;
+}
+
+section {
+    background-color: $white;
+    padding         : 100px 0;
+    position        : relative;
+    z-index         : 1;
+    overflow        : hidden;
+}
+
+.no-scroll {
+    overflow: hidden;
+
+    & .stickyheader {
+        mix-blend-mode: inherit;
+    }
+}
+
+@keyframes blinkCursor {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}

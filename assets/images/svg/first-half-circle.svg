@@ -1,0 +1,6 @@
+<svg class="line-1-desk" height="374" width="333" viewBox="0 0 374 333">
+                                    <path d="M0 1H260C322.408 1 373 51.5918 373 114V333" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="12 12" mask="url(#svg1)"/>
+                                    <mask id="svg1">
+                                        <path class="text" d="M0 1H260C322.408 1 373 51.5918 373 114V333" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke-dashoffset: 800px;"/>
+                                    </mask>
+                                </svg>

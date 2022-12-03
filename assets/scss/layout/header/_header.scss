@@ -1,0 +1,188 @@
+/*--------------------------------------------------------------
+ Header
+----------------------------------------------------------------*/
+
+header {
+    @include position(fixed, $left:0, $right:0);
+    @include transition(all 0.3s ease 0s);
+    padding        : 20px 0;
+    display        : flex;
+    justify-content: center;
+    z-index        : 999;
+
+    & .logo_Wrapper {
+        @include transition(all 0.3s ease 0s);
+
+        & img {
+            width: 150px;
+        }
+    }
+
+    & .dwawer {
+        width                            : 40px;
+        height                           : 26px;
+        @include position(absolute, $left:30px, $top:30px);
+        cursor                           : pointer;
+        @include transition(all 0.4s ease);
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : wrap;
+
+        @include media-mobile-md {
+            top : 45px;
+            left: 20px;
+        }
+
+        & span {
+            @include position(absolute, $left:0, $top:0, $bottom:0);
+            @include border-radius(5px);
+            @include transition(all .3s ease-in-out);
+            height          : 3px;
+            width           : 100%;
+            margin          : auto;
+            background-color: $white
+        }
+
+        &::after,
+        &::before {
+            background-color: $white;
+            @include position(absolute);
+            @include border-radius(5px);
+            height : 3px;
+            content: "";
+            @include transition(all 300ms ease-in-out);
+        }
+
+        &::before {
+            top  : 0;
+            width: 60%;
+        }
+
+        &::after {
+            bottom: 0;
+            width : 80%;
+        }
+
+        &:hover {
+
+            &::after,
+            &::before {
+                width: 100%;
+            }
+        }
+
+        &.active {
+
+            &::after,
+            &::before {
+                width           : 100%;
+                background-color: $black;
+            }
+
+            &::before {
+                @include transform(translateY(12px) translateX(0) rotate(45deg));
+            }
+
+            &::after {
+                @include transform(translateY(-10px) translateX(0) rotate(-45deg));
+            }
+
+            & span {
+                opacity   : 0;
+                visibility: hidden;
+            }
+        }
+    }
+
+    &.stickyheader {
+        background-color      : transparent;
+        mix-blend-mode        : difference;
+        -webkit-mix-blend-mode: difference;
+        -moz-mix-blend-mode   : difference;
+
+        & .logo_Wrapper {
+            top     : -150px;
+            position: relative;
+
+            & img {
+                width: 50px;
+            }
+        }
+    }
+}
+
+.navigation {
+    background: url("../images/menu-bg.png") no-repeat bottom right/50% $white;
+    @include position (fixed, 0 0 0 0);
+    @include transition (all 300ms ease-in-out 0s);
+    @include transform (translate(0, 100%));
+    width          : 100%;
+    height         : 100%;
+    z-index        : 99;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+    overflow       : auto;
+
+    & ul {
+        & li {
+            margin    : 22px 0;
+            text-align: center;
+            opacity   : 0;
+            visibility: hidden;
+            @include transform (translateY(30px));
+            transition: opacity 350ms ease,
+                transform 250ms ease;
+
+            & a {
+                font-size  : 20px;
+                font-weight: 600;
+            }
+
+        }
+    }
+
+    &.slow {
+        @include transform (translate(0, 0));
+
+        & ul {
+            & li {
+                opacity   : 1;
+                visibility: visible;
+
+                &:nth-child(1) {
+                    transition-delay: 400ms;
+                }
+
+                &:nth-child(2) {
+                    transition-delay: 500ms;
+                }
+
+                &:nth-child(3) {
+                    transition-delay: 600ms;
+                }
+
+                &:nth-child(4) {
+                    transition-delay: 700ms;
+                }
+
+                &:nth-child(5) {
+                    transition-delay: 800ms;
+                }
+
+                &:nth-child(6) {
+                    transition-delay: 900ms;
+                }
+
+                &:nth-child(7) {
+                    transition-delay: 1000ms;
+                }
+
+                &:nth-child(8) {
+                    transition-delay: 1100ms;
+                }
+            }
+        }
+    }
+}

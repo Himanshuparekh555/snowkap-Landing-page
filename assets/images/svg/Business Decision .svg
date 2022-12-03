@@ -1,0 +1,16 @@
+<svg width="198" height="236" viewBox="0 0 198 236" fill="none" class="bounce1">
+                                                <path d="M88 0C136.601 0 176 39.3989 176 88L198 152.5H176V200.5H119.5V235.5H0V88C0 39.3989 39.3989 0 88 0Z" fill="#72D0C6"/>
+                                                <path d="M30 69.9985C29.4568 25.9985 75.8333 7.83175 98.5 2.49842C18.5 -1.10158 -0.166664 60.6651 0.5 91.9984V233.498H31C31.1667 188.832 30.4 102.399 30 69.9985Z" fill="#C0EDE3"/>
+                                                <mask id="path-3-inside-1_398_1070" fill="white">
+                                                <path d="M88 0C136.601 0 176 39.3989 176 88L198 152.5H176V200.5H119.5V235.5H0V88C0 39.3989 39.3989 0 88 0Z"/>
+                                                </mask>
+                                                <path d="M88 0C136.601 0 176 39.3989 176 88L198 152.5H176V200.5H119.5V235.5H0V88C0 39.3989 39.3989 0 88 0Z" stroke="black" stroke-width="2" mask="url(#path-3-inside-1_398_1070)"/>
+                                                <path d="M135.5 53.5L78 111L49.5 82.5L58.5 73.5L78 93L126.5 44.5L135.5 53.5Z" fill="#FFA451"/>
+                                                <path d="M49 82L49.5 82.5M49.5 82.5L78 111L135.5 53.5L126.5 44.5L78 93L58.5 73.5L49.5 82.5Z" stroke="#FDFBF6"/>
+                                                <path d="M72.5 55.5L62 45" stroke="#FDFBF6" stroke-width="2" class="blinkx"/>
+                                                <path d="M120.362 105.246L133.594 111.984" stroke="#FDFBF6" class="blinkx" stroke-width="2"/>
+                                                <path d="M83.0702 50.3598L79.2891 36" stroke="#FDFBF6" class="blinkx" stroke-width="2"/>
+                                                <path d="M111.897 113.404L119.934 125.891" stroke="#FDFBF6" class="blinkx" stroke-width="2"/>
+                                                <path d="M97.3113 48.3691L101.057 34" stroke="#FDFBF6" class="blinkx" stroke-width="2"/>
+                                                <path d="M98.97 119.7L99.8516 134.523" stroke="#FDFBF6" class="blinkx" stroke-width="2"/>
+                                                </svg>

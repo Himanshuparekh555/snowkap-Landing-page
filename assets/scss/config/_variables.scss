@@ -1,0 +1,46 @@
+/**=====================
+    default variables
+==========================**/
+
+//font 
+$primary-font: 'Sora',
+sans-serif;
+$secondary-font: 'Work Sans',
+sans-serif;
+
+//color variables
+$primary-color:#FFA93C;
+$black        : #000;
+$white        : #ffffff;
+$blue         :#122F47;
+$light-blue   :#8CDAD5;
+$light-blue-bg:#e6f6f0;
+$gray         : #cccccc;
+$gray-light   :#fafafa;
+$button-color :#FFA451;
+$card-bg      :#A0DCF4;
+
+// Media Queries
+@mixin media-mobile-lg {
+    @media screen and (max-width : 992px) {
+        @content;
+    }
+}
+
+@mixin media-desktop-md-min {
+    @media screen and (min-width : 768px) {
+        @content;
+    }
+}
+
+@mixin media-mobile-md {
+    @media screen and (max-width : 768px) {
+        @content;
+    }
+}
+
+@mixin media-mobile-sm {
+    @media screen and (max-width : 576px) {
+        @content;
+    }
+}

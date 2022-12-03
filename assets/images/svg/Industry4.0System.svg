@@ -1,0 +1,12 @@
+<svg width="116" height="115" viewBox="0 0 116 115" fill="none" class="rotationx">
+                                        <circle r="31.2718" transform="matrix(1 0 0 -1 57.3447 58.6539)" fill="#72D0C6" stroke="#122F47"/>
+                                        <circle r="20.8738" transform="matrix(1 0 0 -1 57.3447 58.6536)" fill="#FDFBF6" stroke="#122F47"/>
+                                        <circle cx="58.3447" cy="7.50971" r="7.50971" fill="#122F47" class="blink b1"/>
+                                        <circle cx="19.0634" cy="92.1621" r="7.00971" fill="#72D0C6" class="blink b2" stroke="#122F47"/>
+                                        <circle cx="19.0634" cy="22.5292" r="7.00971" fill="#72D0C6" class="blink b3" stroke="#122F47"/>
+                                        <circle cx="93.4706" cy="22.5292" r="7.00971" fill="#72D0C6" class="blink b2" stroke="#122F47"/>
+                                        <circle cx="93.4706" cy="92.1621" r="7.00971" fill="#72D0C6" class="blink b3" stroke="#122F47"/>
+                                        <circle cx="55.3447" cy="107.178" r="7.50971" fill="#122F47" class="blink b1"/>
+                                        <circle cx="108.49" cy="58.6542" r="7.50971" fill="#122F47" class="blink b2"/>
+                                        <circle cx="7.50971" cy="58.6542" r="7.50971" fill="#122F47" class="blink b3"/>
+                                    </svg>

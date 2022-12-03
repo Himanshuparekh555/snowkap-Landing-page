@@ -1,0 +1,19 @@
+.bounce1 {
+  -webkit-animation: bouncebounce1 1.1s 1.6s infinite ease-out alternate;
+  animation: bouncebounce1 1.1s 1.6s infinite ease-out alternate; }
+
+@-webkit-keyframes bouncebounce1 {
+  0% {
+    -webkit-transform: translate(0px, -6px);
+    transform: translate(0px, -6px); }
+  100% {
+    -webkit-transform: translate(0px, 9px);
+    transform: translate(0px, 9px); } }
+
+@keyframes bouncebounce1 {
+  0% {
+    -webkit-transform: translate(0px, -6px);
+    transform: translate(0px, -6px); }
+  100% {
+    -webkit-transform: translate(0px, 9px);
+    transform: translate(0px, 9px); } }
